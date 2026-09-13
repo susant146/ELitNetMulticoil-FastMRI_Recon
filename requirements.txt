@@ -1,0 +1,9 @@
+torch==1.12.1
+torchvision==0.13.1
+pytorch-lightning==1.7.7
+h5py==3.7.0
+fastmri
+numpy
+scikit-image
+astropy
+runstats

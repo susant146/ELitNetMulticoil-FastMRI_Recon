@@ -2,7 +2,9 @@
 
 PyTorch / PyTorch Lightning implementation of **PBC-ELiTNet**, an energy-efficient, lightweight, and computationally thin deep learning model for accelerated multicoil MRI reconstruction from undersampled k-space data, built on the [fastMRI](https://fastmri.med.nyu.edu/) framework.
 
-PBC-ELiTNet extends the **Projection-Based Cascaded U-Net (PBC-UNet)** architecture ([Aghabiglou & Eksioglu, 2021](https://www.sciencedirect.com/science/article/abs/pii/S016926072100225X)) by replacing its U-Net backbone with **ELiTNet**, a layer-wise attention-based lightweight network, while keeping the same projection-based data-consistency (DC) cascade framework. This repository provides the core building blocks of the framework: data loading and transforms, the projection-based DC layer, the gradient/SSIM-based loss functions, and the abstract Lightning model class.
+PBC-ELiTNet is based on the backbone of **ELiTNet**, a layer-wise attention-based energy efficient, lightweight, and computationally thin network, while keeping the projection-based data-consistency (DC) cascade framework. This repository provides the core building blocks of the framework: data loading and transforms, the projection-based DC layer, the gradient/SSIM-based loss functions, and the abstract Lightning model class.
+
+**The final complete PBC-ELiTNet code will be updated upon acceptance of the manuscript**
 
 ## Abstract
 
